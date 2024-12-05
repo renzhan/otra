@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "hello world!"
+name=${1:-world}
+echo "hello $name!"
